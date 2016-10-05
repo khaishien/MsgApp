@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "835006608916",
+    "project_id": "firebase-msgapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835006608916:android:42426ac6f14fde53",
+        "android_client_info": {
+          "package_name": "com.example.shen_mini_itx.msgapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835006608916-navssbfakov21k9p06dqnccknkrfv3re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shen_mini_itx.msgapp",
+            "certificate_hash": "479F0A2314E778BD00EEEF02C2547371B24B35D7"
+          }
+        },
+        {
+          "client_id": "835006608916-br5qqu0qh4s0o1lgtmva81fmb649sef0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWwKGOn835czi27MLuQAh_Jsq2H_F95PE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

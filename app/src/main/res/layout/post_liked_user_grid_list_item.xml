@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.shen_mini_itx.msgapp.Common.SquareImageView
+            android:id="@+id/liked_owner_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/transparent_black">
+
+            <TextView
+                android:id="@+id/liked_owner_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="owner"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

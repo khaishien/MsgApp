@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friend_layout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:background="@drawable/listview_bg_selector"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/friend_owner_icon"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:src="@drawable/icon_0" />
+
+
+    <TextView
+        android:id="@+id/friend_owner_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/friend_owner_icon"
+        android:gravity="center_vertical"
+        android:text="owner"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/friend_add_button"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_selector"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_person_add_white_24dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
